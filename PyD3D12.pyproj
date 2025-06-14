@@ -28,6 +28,7 @@
     <Compile Include="D3D12\Constants\D3D12_CONSTANTS.py" />
     <Compile Include="D3D12\Constants\GPU.py" />
     <Compile Include="D3D12\Enums\COMMAND_QUEUE_PRIORITY.py" />
+    <Compile Include="D3D12\Enums\FILL_MODE.py" />
     <Compile Include="D3D12\Enums\INPUT_CLASSIFICATION.py" />
     <Compile Include="D3D12\Enums\PRIMITIVE_TOPOLOGY_TYPE.py" />
     <Compile Include="D3D12\Enums\__init__.py" />
