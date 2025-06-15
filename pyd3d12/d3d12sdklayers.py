@@ -3,7 +3,7 @@
 from ctypes import *
 from comtypes import COMMETHOD, GUID, IUnknown, wireHWND
 from comtypes.typeinfo import ULONG_PTR
-import OLE
+from . import OLE
 from ctypes import HRESULT
 from typing import TYPE_CHECKING
 

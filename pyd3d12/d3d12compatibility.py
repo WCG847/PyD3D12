@@ -1,7 +1,7 @@
 # -*- coding: mbcs -*-
 
 from ctypes import *
-import OLE
+from . import OLE
 from comtypes import COMMETHOD, GUID, IUnknown
 from ctypes import HRESULT
 from typing import TYPE_CHECKING
