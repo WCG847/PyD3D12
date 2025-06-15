@@ -1,7 +1,7 @@
 from enum import IntFlag
 
-import d3d12sdklayers as __wrapper_module__
-from d3d12sdklayers import (
+from . import d3d12sdklayers as __wrapper_module__
+from .d3d12sdklayers import (
     D3D12_MESSAGE_ID_COMPUTE_ONLY_DEVICE_OPERATION_UNSUPPORTED,
     DXGI_FORMAT_BC6H_SF16,
     D3D12_MESSAGE_ID_SETDEPTHBOUNDS_INVALIDARGS,
