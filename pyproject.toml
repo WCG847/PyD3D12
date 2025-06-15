@@ -1,12 +1,12 @@
 [project]
 name = "PyD3D12"
-version = "1.0.0"
+version = "2.1.0"
 description = "A 1:1 raw Python binding to Direct3D 12"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "GNU General Public License 3.0"}
+license = {text = "GNU General Public License v3.0"}
 authors = [
-  { name="WCG847", email="heelmods@gmail.com" }
+  { name = "WCG847", email = "heelmods@gmail.com" }
 ]
 classifiers = [
     "Operating System :: Microsoft :: Windows",
@@ -16,15 +16,15 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Topic :: Software Development :: Libraries",
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+    "Topic :: Games/Entertainment :: Simulation"
+]
 
 [project.urls]
 Homepage = "https://github.com/wcg847/PyD3D12"
 Repository = "https://github.com/wcg847/PyD3D12"
 
-
-
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

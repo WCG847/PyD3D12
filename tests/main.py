@@ -2,7 +2,7 @@
 from ctypes import POINTER, c_void_p, byref, c_uint
 import comtypes
 from comtypes import GUID
-from d3d12lib.D3D12 import ID3D12Device
+from pyd3d12.D3D12 import ID3D12Device
 from comtypes import cast
 
 

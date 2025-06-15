@@ -2351,7 +2351,7 @@ assert alignment(__MIDL___MIDL_itf_d3d12_0000_0001_0009) == 8, alignment(__MIDL_
 
 
 class Library(object):
-    name = 'D3D12Lib'
+    name = 'pyd3d12'
     _reg_typelib_ = ('{2FABA4AB-52B9-4A5B-9B5F-88F2FA355E5E}', 1, 0)
 
 

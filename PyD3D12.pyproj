@@ -22,19 +22,29 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="d3d12lib\D3D12.py" />
     <Compile Include="d3d12lib\stdole.py" />
     <Compile Include="d3d12lib\OLE.py" />
     <Compile Include="d3d12lib\D3D12_2.py" />
-    <Compile Include="d3d12lib\__init__.py" />
+    <Compile Include="pyd3d12\D3D12.py" />
+    <Compile Include="pyd3d12\D3D12_2.py" />
+    <Compile Include="pyd3d12\dll.py" />
+    <Compile Include="pyd3d12\OLE.py" />
+    <Compile Include="pyd3d12\stdole.py" />
+    <Compile Include="pyd3d12\__init__.py" />
     <Compile Include="tests\main.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="d3d12lib\" />
+    <Folder Include="pyd3d12\" />
+    <Folder Include="pyd3d12\__pycache__\" />
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pyd3d12\__pycache__\D3D12.cpython-313.pyc" />
+    <Content Include="pyd3d12\__pycache__\D3D12_2.cpython-313.pyc" />
+    <Content Include="pyd3d12\__pycache__\OLE.cpython-313.pyc" />
+    <Content Include="pyd3d12\__pycache__\__init__.cpython-313.pyc" />
     <Content Include="pyproject.toml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

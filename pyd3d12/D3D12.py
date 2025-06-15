@@ -953,6 +953,16 @@ class D3D12_FEATURE(IntFlag):
     D3D12_FEATURE_D3D12_OPTIONS19 = 48
     D3D12_FEATURE_D3D12_OPTIONS20 = 49
 
+import comtypes
+from comtypes import GUID, IUnknown
+from ctypes import HRESULT
+
+class ID3D12Debug(IUnknown):
+    _iid_ = GUID("{344488b7-6846-474b-b989-f027448245e0}")
+    _methods_ = [
+        comtypes.STDMETHOD(HRESULT, "EnableDebugLayer"),
+    ]
+
 
 class D3D12_HEAP_TYPE(IntFlag):
     D3D12_HEAP_TYPE_DEFAULT = 1
