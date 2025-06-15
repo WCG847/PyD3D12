@@ -1,6 +1,6 @@
 [project]
 name = "PyD3D12"
-version = "2.1.0"
+version = "2.1.1"
 description = "A 1:1 raw Python binding to Direct3D 12"
 readme = "README.md"
 requires-python = ">=3.8"

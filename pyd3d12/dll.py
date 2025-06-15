@@ -1,7 +1,8 @@
 import ctypes
 from ctypes import POINTER, byref, c_void_p, c_uint
 from comtypes import GUID, cast
-from .D3D12 import D3D_FEATURE_LEVEL_12_0, ID3D12Device, ID3D12Debug
+from .D3D12 import D3D_FEATURE_LEVEL_12_0, ID3D12Device
+from .d3d12sdklayers import ID3D12Debug
 
 # Load d3d12.dll
 d3d12 = ctypes.windll.d3d12

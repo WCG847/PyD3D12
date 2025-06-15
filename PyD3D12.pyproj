@@ -25,7 +25,11 @@
     <Compile Include="d3d12lib\stdole.py" />
     <Compile Include="d3d12lib\OLE.py" />
     <Compile Include="d3d12lib\D3D12_2.py" />
+    <Compile Include="pyd3d12\compatibility_2.py" />
     <Compile Include="pyd3d12\D3D12.py" />
+    <Compile Include="pyd3d12\d3d12compatibility.py" />
+    <Compile Include="pyd3d12\d3d12sdklayers.py" />
+    <Compile Include="pyd3d12\d3d12sdklayers_2.py" />
     <Compile Include="pyd3d12\D3D12_2.py" />
     <Compile Include="pyd3d12\dll.py" />
     <Compile Include="pyd3d12\OLE.py" />
