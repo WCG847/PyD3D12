@@ -49,3 +49,5 @@ import PyD3D12 as dx
 If there are conflicting Direct3D bindings, use `dx12` but it's best to deprecate older versions for consistency.
 
 https://pypi.org/project/PyD3D12/
+
+⭐ If you find this project useful, consider giving it a star to support development
