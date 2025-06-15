@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>44860e0d-8f81-4e19-9e40-338ad42f238b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,35 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="D3D12\Constants\__init__.py" />
-    <Compile Include="D3D12\Enums\COMMAD_QUEUE_FLAGS.py" />
-    <Compile Include="D3D12\Enums\COMMAND_LIST.py" />
-    <Compile Include="D3D12\Constants\D3D12_CONSTANTS.py" />
-    <Compile Include="D3D12\Constants\GPU.py" />
-    <Compile Include="D3D12\Enums\COMMAND_QUEUE_PRIORITY.py" />
-    <Compile Include="D3D12\Enums\CULL_MODE.py" />
-    <Compile Include="D3D12\Enums\FILL_MODE.py" />
-    <Compile Include="D3D12\Enums\INPUT_CLASSIFICATION.py" />
-    <Compile Include="D3D12\Enums\PRIMITIVE_TOPOLOGY_TYPE.py" />
-    <Compile Include="D3D12\Enums\__init__.py" />
-    <Compile Include="D3D12\Interfaces\__init__.py" />
-    <Compile Include="D3D12\Structs\COMMAND_QUEUE_DESC.py" />
-    <Compile Include="D3D12\Structs\INPUT_ELEMENT_DESC.py" />
-    <Compile Include="D3D12\Structs\SO_DECLARATION_ENTRY.py" />
-    <Compile Include="D3D12\Structs\__init__.py" />
-    <Compile Include="D3D12\__init__.py" />
-    <Compile Include="DXGI\Enums\FORMAT.py" />
-    <Compile Include="DXGI\Enums\__init__.py" />
-    <Compile Include="DXGI\__init__.py" />
+    <Compile Include="d3d12lib\D3D12.py" />
+    <Compile Include="d3d12lib\stdole.py" />
+    <Compile Include="d3d12lib\OLE.py" />
+    <Compile Include="d3d12lib\D3D12_2.py" />
+    <Compile Include="d3d12lib\__init__.py" />
+    <Compile Include="main.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="D3D12\Constants\" />
-    <Folder Include="D3D12\Enums\" />
-    <Folder Include="D3D12\Interfaces\" />
-    <Folder Include="D3D12\" />
-    <Folder Include="D3D12\Structs\" />
-    <Folder Include="DXGI\" />
-    <Folder Include="DXGI\Enums\" />
+    <Folder Include="d3d12lib\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
