@@ -3,6 +3,9 @@ ________________________________________________________
 ## Overview
 This module provides a 1-1 binding of Direct3D12 to Python, with a similar experience as C++ bindings. It is designed to be used with the Python programming language and provides a raw interface for working with Direct3D12.
 
+## DXR
+It is DXR-compliant
+
 ## Installation
 To install the PyD3D12 module, you can use pip:
 
