@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /dist
 /PyD3D12.egg-info
+/build/lib.win32-cpython-313/pyd3d12
