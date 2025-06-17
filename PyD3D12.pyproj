@@ -35,6 +35,7 @@
     <Compile Include="pyd3d12\OLE.py" />
     <Compile Include="pyd3d12\stdole.py" />
     <Compile Include="pyd3d12\__init__.py" />
+    <Compile Include="setup.py" />
     <Compile Include="tests\main.py" />
     <Compile Include="__init__.py" />
   </ItemGroup>
