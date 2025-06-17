@@ -1,13 +1,14 @@
 [project]
 name = "PyD3D12"
-version = "2.1.6"
+version = "2.1.7"
 description = "A 1:1 raw Python binding to Direct3D 12"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "GNU General Public License v3.0"}
+license = { text = "Apache-2.0" }
 authors = [
   { name = "WCG847", email = "heelmods@gmail.com" }
 ]
+
 classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Programming Language :: Python :: 3",
@@ -16,7 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: Apache Software License",
     "Topic :: Software Development :: Libraries",
     "Topic :: Games/Entertainment :: Simulation"
 ]
